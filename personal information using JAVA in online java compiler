@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("NAME : Dhanalakshmi Palani");
+        System.out.println("D.O.B : 16/01/2006");
+        System.out.println("COURSE : 2nd B.COM PA");
+        System.out.println("COLLEGE : VICAS");
+        System.out.println("BLOOD GROUP : B-ve");
+        System.out.println("EMAIL ID : dhanalakshmipalani42@gmail.com");
+        System.out.println("PH.NO : 8807365803");
+    }
+}
