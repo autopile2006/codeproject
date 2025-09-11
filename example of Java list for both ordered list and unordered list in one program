@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class ListDemo {
+    public static void main(String[] args) {
+        // Ordered List using ArrayList
+        List<String> orderedList = new ArrayList<>();
+        orderedList.add("Apple");
+        orderedList.add("Banana");
+        orderedList.add("Cherry");
+        System.out.println("Ordered List (ArrayList): " + orderedList);
+
+        // Unordered List using HashSet
+        Set<String> unorderedSet = new HashSet<>();
+        unorderedSet.add("Apple");
+        unorderedSet.add("Banana");
+        unorderedSet.add("Cherry");
+        System.out.println("Unordered List (HashSet): " + unorderedSet);
+    }
+}
