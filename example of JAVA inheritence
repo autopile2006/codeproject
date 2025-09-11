@@ -1,0 +1,15 @@
+class spirit {
+  protected String name = "Fucifer lilith";
+  public void honk() {
+    System.out.println("Its Demond Kingdom!");
+  }
+}
+
+class Car extends spirit {
+  private String name = "luciferlilith";
+  public static void main(String[] args) {
+    spirit myspiritworld = new spirit();
+    myspiritworld.honk();
+    System.out.println(myspiritworld.name + " " + myspiritworld.name);
+  }
+}
